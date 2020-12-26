@@ -28,3 +28,13 @@ const sum = (numbers) => {
 };
 sum([0, 2, 4]); // 6
 // recursion: functional - self-referential stateless
+const sum1 = (numbers) => {
+	if (numbers.length === 1) {
+		// base case
+		return numbers[0];
+	} else {
+		// recursive case
+		return numbers[0] + sum1(numbers.slice(1));
+	}
+};
+sum1([2, 4, 10]);
