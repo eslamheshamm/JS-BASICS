@@ -38,3 +38,15 @@ const sum1 = (numbers) => {
 	}
 };
 sum1([2, 4, 10]);
+// else if statements
+const age = 45;
+
+if (age < 21) {
+	console.log(`You're less than 21`);
+} else if (age > 21 && age < 30) {
+	console.log(`you're between 21 & 30`);
+} else if (age < 0) {
+	console.log(`you're not born yet`);
+} else {
+	console.log(`you're older than 30`);
+}
