@@ -55,17 +55,41 @@ if (age < 21) {
 age == 45 ? console.log("yep") : console.log("nope");
 // Arrays
 
-const charachters = ["Patrick", "Chewie", "Loka"];
-console.log(charachters);
-charachters.push("Lio");
-charachters.push("Adam");
-console.log(charachters);
+const charachters = ["Patrick", "Chewie", "Loka", "Zozi"];
+// Manipulating array
+// console.log(charachters);
+// charachters.push("Lio");
+// charachters.push("Adam");
+// console.log(charachters);
+// charachters.pop();
+// charachters.pop();
+// console.log(charachters);
+// charachters.unshift("Joji");
+// charachters.unshift("Asap");
+// console.log(charachters);
+// charachters.shift();
+// charachters.shift();
+// console.log(charachters);
+// charachters.splice(0, 1, "Loly");
+// console.log(charachters);
+// charachters.splice(1, 2, "Kylo");
+// console.log(charachters);
+// charachters.splice(1, 1, "CC", "DD");
+// console.log(charachters);
+// charachters.splice(1, 2);
+// console.log(charachters);
+// charachters.push("RR2");
+// charachters.push("AA#");
+// console.log(charachters);
+// charachters.reverse();
+// console.log(charachters);
+// charachters.sort();
+// console.log(charachters);
+
+const postiotion = charachters.indexOf("Loka");
+console.log(postiotion);
+charachters.push("Loka");
+const lastPostiotion = charachters.lastIndexOf("Loka");
+console.log(lastPostiotion);
 charachters.pop();
-charachters.pop();
-console.log(charachters);
-charachters.unshift("Joji");
-charachters.unshift("Asap");
-console.log(charachters);
-charachters.shift();
-charachters.shift();
 console.log(charachters);
