@@ -53,3 +53,19 @@ if (age < 21) {
 
 // TERNARY statement
 age == 45 ? console.log("yep") : console.log("nope");
+// Arrays
+
+const charachters = ["Patrick", "Chewie", "Loka"];
+console.log(charachters);
+charachters.push("Lio");
+charachters.push("Adam");
+console.log(charachters);
+charachters.pop();
+charachters.pop();
+console.log(charachters);
+charachters.unshift("Joji");
+charachters.unshift("Asap");
+console.log(charachters);
+charachters.shift();
+charachters.shift();
+console.log(charachters);
