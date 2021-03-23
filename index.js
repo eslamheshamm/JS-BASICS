@@ -50,3 +50,6 @@ if (age < 21) {
 } else {
 	console.log(`you're older than 30`);
 }
+
+// TERNARY statement
+age == 45 ? console.log("yep") : console.log("nope");
