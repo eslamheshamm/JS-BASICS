@@ -93,3 +93,23 @@ const lastPostiotion = charachters.lastIndexOf("Loka");
 console.log(lastPostiotion);
 charachters.pop();
 console.log(charachters);
+// --------------------------------------------------- //
+// playing with objects
+let dog = { name: "Woody", type: "dog" };
+let cat = { name: "Bob", type: "cat" };
+console.log(cat, dog);
+
+let pets = [{ name: "Woody", type: "dog" }, cat];
+console.log(pets);
+
+pets.push({ name: "Roxy", type: "dog" });
+console.log(pets[2]);
+
+cat.age = 1;
+dog["age"] = 3;
+pets[0].age = 5;
+pets[2].age = 7;
+
+pets[1].age = 11;
+pets[1].hungry = true;
+console.log(pets);
