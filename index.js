@@ -113,3 +113,15 @@ pets[2].age = 7;
 pets[1].age = 11;
 pets[1].hungry = true;
 console.log(pets);
+
+// for loops
+let names = ["Eslam", "Hesham", "Ahmed", "Osman", "Mohamed", "Hamza", "Sayed"];
+let numNames = names.length;
+// increament
+for (let i = 0; i < numNames; i++) {
+	console.log(names[i]);
+}
+// decreament
+for (let i = numNames - 1; i >= 0; i--) {
+	console.log(names[i]);
+}
