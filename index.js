@@ -125,3 +125,7 @@ for (let i = 0; i < numNames; i++) {
 for (let i = numNames - 1; i >= 0; i--) {
 	console.log(names[i]);
 }
+// for (of)
+for (let name of names) {
+	console.log(name);
+}
