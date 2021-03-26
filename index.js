@@ -52,7 +52,11 @@ if (age < 21) {
 }
 
 // TERNARY statement
-age == 45 ? console.log("yep") : console.log("nope");
+age < 21
+	? console.log(`You're less than 21`)
+	: age > 21
+	? console.log(`You're olrder than 21`)
+	: "idk";
 // Arrays
 
 const charachters = ["Patrick", "Chewie", "Loka", "Zozi"];
